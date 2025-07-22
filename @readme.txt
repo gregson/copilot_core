@@ -4,6 +4,7 @@
 - Date du transfert : 21/07/2025
 - Dépôt GitHub : https://github.com/gregson/copilot_core
 - Branche principale : main
+- Branche Odoo : 18.0 (requise pour l'intégration avec Odoo)
 
 ## Structure du projet
 Le projet est un module Odoo nommé "copilot_core" qui contient les éléments suivants :
@@ -19,10 +20,12 @@ Pour mettre à jour le dépôt GitHub après des modifications locales :
 ```
 git add .
 git commit -m "Description des modifications"
-git push origin main
+git push origin 18.0  # Utiliser la branche 18.0 pour Odoo
 ```
 
 Pour récupérer les dernières modifications depuis GitHub :
 ```
-git pull origin main
+git pull origin 18.0  # Utiliser la branche 18.0 pour Odoo
 ```
+
+Note : La branche 18.0 est spécifiquement requise par Odoo pour l'intégration du module.
